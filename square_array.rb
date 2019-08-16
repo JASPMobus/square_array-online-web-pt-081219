@@ -1,6 +1,8 @@
 def square_array(array)
   # your code here
-  array.each do |n|
-    n ** 2
-  end
+  retarray = []
+  
+  array.each { |n| retarray << n ** 2 }
+  
+  return retarray
 end
